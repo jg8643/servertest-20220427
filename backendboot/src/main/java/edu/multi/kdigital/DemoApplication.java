@@ -6,8 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 import other.OtherController;
-import spring.mybatis.MemberDAO;
-import spring.mybatis.MemberMybatisController;
 import upload.UploadController;
 
 //부트 프로젝트 시작하는 파일

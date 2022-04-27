@@ -1,4 +1,4 @@
-package spring.mybatis;
+package edu.multi.kdigital;
 
 import java.util.List;
 
