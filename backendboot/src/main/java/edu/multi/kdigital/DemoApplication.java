@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 import other.OtherController;
-import upload.UploadController;
 
 //부트 프로젝트 시작하는 파일
 //1. 자동으로 톰캣 서버 내장된게 시작
@@ -16,7 +15,6 @@ import upload.UploadController;
 @SpringBootApplication
 @ComponentScan //(basePackageClasses = HelloController.class) /* servlet-context.xml*/
 @ComponentScan(basePackageClasses = OtherController.class)
-@ComponentScan(basePackageClasses = UploadController.class)
 //@ComponentScan(basePackages =  {"upload"})
 @ComponentScan(basePackageClasses = MemberMybatisController.class)
 @MapperScan(basePackageClasses = MemberDAO.class)
