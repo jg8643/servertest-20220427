@@ -6,7 +6,6 @@
 <!-- 1. sql 실행 결과 XXXDTO 매핑 -->
 <typeAliases>
 	<typeAlias type="edu.multi.kdigital.MemberDTO" alias="memberdto"/>
-	<typeAlias type="product.ProductDTO" alias="productdto"/>
 </typeAliases>
 
 
